@@ -4,16 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "PerfectMime",
+    name: "PerfectMIME",
     products: [
         .library(
-            name: "PerfectMime",
-            targets: ["PerfectMime"]),
+            name: "PerfectMIME",
+            targets: ["PerfectMIME"]),
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "PerfectMime",
+            name: "PerfectMIME",
             dependencies: []),
     ]
 )
